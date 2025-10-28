@@ -18,13 +18,13 @@ try {
   $mail->CharSet = "UTF-8";
   $mail->SMTPAuth   = true;
 
-  $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
-  $mail->Username   = 'abdullah@macromatrix.io';                     //SMTP username
-  $mail->Password   = 'gavmI5bypmasnuvzur@';                               //SMTP password
+  $mail->Host       = 'smtp.hostinger.com';                     
+  $mail->Username   = 'abdullah@macromatrix.io';                    
+  $mail->Password   = 'gavmI5bypmasnuvzur@';                              
   $mail->SMTPSecure = 'tls';
   $mail->Port       =  587 ;
 
-  $mail->setFrom('no-reply@macromatrix.com', $title);
+  $mail->setFrom('abdullah@macromatrix.io', $title);
   $mail->addAddress('abdullah@macromatrix.io');
   $mail->isHTML(true);
   $mail->Subject = $title;
