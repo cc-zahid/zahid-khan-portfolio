@@ -49,6 +49,13 @@ body {
   margin-bottom: 54px;
 }
 
+.sub-title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
 .btn {
   display: inline-block;
   height: 52px;
